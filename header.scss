@@ -1,0 +1,113 @@
+@import "layout.scss";
+
+.header {
+  @include for-medium {
+    box-sizing: border-box;
+    padding: 40px 130px 0px 130px;
+    position: relative;
+    display: flex;
+    width: 1400px;
+    flex-direction: row;
+
+    background-color: #f3c6bd;
+    &__logo {
+      display: flex;
+      &_text {
+        margin-left: 15px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+      }
+      &_description {
+        font-family: "Work Sans", sans-serif;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 400px;
+      }
+      &_name {
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+      }
+    }
+    &__button {
+      width: 160px;
+      height: 48px;
+      border-radius: 2px;
+      background-color: #3040c4;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 13px;
+    }
+    &__arrow {
+      margin: auto 54px auto 11px;
+      width: 8px;
+      height: 5px;
+    }
+    &__navigation {
+      font-family: "Work Sans", sans-serif;
+      margin: auto 0 auto auto;
+      display: flex;
+      line-height: 25px;
+      font-size: 18px;
+      padding: 0px;
+      width: 273px;
+      height: 25px;
+      justify-content: space-between;
+      &_item {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  @include for-small {
+    box-sizing: border-box;
+    padding-left: 15px;
+    display: flex;
+    width: 320px;
+    height: 64px;
+    &__logo {
+      display: flex;
+      flex-direction: row;
+      &_image {
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 48px;
+        height: 48px;
+      }
+      &_text {
+        font-family: "Work Sans", sans-serif;
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+        margin: auto 0 auto 13px;
+      }
+      &_description {
+        display: none;
+      }
+    }
+    &__navigation {
+      display: none;
+      &_icon {
+        border-left: solid rgba(25, 0, 0, 0.15);
+        width: 58px;
+        height: 100%;
+        background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+      }
+    }
+    &__button {
+      display: none;
+    }
+    &__arrow {
+      display: none;
+    }
+  }
+}
