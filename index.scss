@@ -5,12 +5,16 @@
 @import "audience.scss";
 
 body {
-  display: flex;
-  justify-content: space-around;
+  margin: 0px;
+  padding: 0px;
 }
 .page {
+  margin: 0px auto;
+  box-sizing: border-box;
+  @include for-medium {
+    max-width: 1399px;
+  }
   @include for-small {
     max-width: 320px;
-    box-sizing: border-box;
   }
 }
