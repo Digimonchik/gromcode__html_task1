@@ -4,7 +4,6 @@
   @include for-medium {
     box-sizing: border-box;
     width: 1140px;
-    margin: auto;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -36,6 +35,7 @@
       border-radius: 2px;
       background-color: #3040c4;
       border: none;
+      margin: auto 0;
       box-shadow: none;
       padding: 0;
       color: white;
@@ -44,13 +44,13 @@
       line-height: 13px;
     }
     &__arrow {
-      margin: 16px 54px auto 11px;
+      margin: auto 54px auto 11px;
       width: 8px;
       height: 5px;
     }
     &__navigation {
       font-family: "Work Sans", sans-serif;
-      margin: 7px 0px auto auto;
+      margin: auto 0px auto auto;
       display: flex;
       line-height: 25px;
       font-size: 18px;
@@ -65,8 +65,9 @@
     }
   }
   @include for-small {
-    box-sizing: border-box;
+    background-color: #ffffff;
     padding-left: 15px;
+    box-sizing: border-box;
     display: flex;
     width: 320px;
     height: 64px;
@@ -93,13 +94,13 @@
     &__navigation {
       display: none;
       &_icon {
-        border-left: solid rgba(25, 0, 0, 0.15);
+        border-left: 1px solid rgba(25, 0, 0, 0.15);
         width: 58px;
         height: 100%;
         background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
         background-repeat: no-repeat;
         background-position: center;
-        margin-left: auto;
+        margin-left: 74px;
       }
     }
     &__button {

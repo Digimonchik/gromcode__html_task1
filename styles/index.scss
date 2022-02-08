@@ -23,3 +23,11 @@ body {
     max-width: 320px;
   }
 }
+#header {
+  background-color: #f3c6bd;
+  @include for-medium {
+    padding: 45px 130px 126px;
+  }
+  @include for-small {
+  }
+}

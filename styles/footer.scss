@@ -11,7 +11,7 @@
         display: flex;
         justify-content: center;
       }
-      &_name {
+      &_header {
         font-family: "Work Sans", sans-serif;
         font-size: 20px;
         line-height: 25px;
@@ -26,7 +26,7 @@
     }
     &__main {
       display: flex;
-      padding-left: 130px;
+      margin: 0px 130px;
       padding-top: 60px;
       height: 338px;
     }
@@ -47,11 +47,15 @@
     }
     &__navigation_item {
       list-style-type: none;
+      padding: 0 82px 0 0px;
       margin: 0;
       font-family: "Work Sans", sans-serif;
       font-weight: 400;
       line-height: 30px;
       font-size: 18px;
+    }
+    &__navigation_item li {
+      margin-bottom: 5px;
     }
     &__navigation_item li:first-child {
       margin-bottom: 18px;

@@ -11,26 +11,27 @@
 </head>
 <body>
 <div class='page'>
-    <div class='headline'>
-        <header class='header'>
-            <div class='header__logo'>
-                <img class='header__logo_image'
-                    src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png'>
-                <div class='header__logo_text'>
-                    <div class='header__logo_name'>Foundation</div>
-                    <div class='header__logo_description'>Startup landing template</div>
-                </div>
+    <div id="header">
+    <header class='header'>
+        <div class='header__logo'>
+            <img class='header__logo_image'
+                src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png'>
+            <div class='header__logo_text'>
+                <div class='header__logo_name'>Foundation</div>
+                <div class='header__logo_description'>Startup landing template</div>
             </div>
-            <nav class='header__navigation'>
-                <a href=# class='header__navigation_item selected'> Home</a>
-                <a href=# class='header__navigation_item'>Stories</a>
-                <a href=# class='header__navigation_item'>Library</a>
-            </nav>
-            <img class='header__arrow'
-                src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png'>
-            <button class='header__button button_top'>Get started</button>
-            <div class='header__navigation_icon'></div>
-        </header>
+        </div>
+        <nav class='header__navigation'>
+            <a href=# class='header__navigation_item selected'> Home</a>
+            <a href=# class='header__navigation_item'>Stories</a>
+            <a href=# class='header__navigation_item'>Library</a>
+        </nav>
+        <img class='header__arrow'
+            src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png'>
+        <button class='header__button button_top'>Get started</button>
+        <div class='header__navigation_icon'></div>
+    </header>
+    <div class='headline'>
         <div class='headline__info'>
             <h1 class='headline__info_main'>Build stunning websites & apps.</h1>
             <div class='headline__info_description'>Create live segments and target the right people for messages based
@@ -40,14 +41,15 @@
         </div>
         <div class='headline__image'></div>
     </div>
+    </div>
     <div class='audience'>
         <h1 class='audience__headline'>Engage Visitors
         </h1>
     <h2 class='audience__header'>Understand your audience</h2>
     <div class='audience__description'>Early stage company? Eligible applicants get all of our products for just $49 a month.</div>
    <div class = 'audience__buttons'>
-    <button class='headline__button'>Get started</button>
-    <button class='headline__button button_white'>Learn More</button>
+    <button class='audience__button'>Get started</button>
+    <button class='audience__button button_white'>Learn More</button>
     </div>
     <div class='audience__cards'>
         <div class='audience__card'>
@@ -88,9 +90,9 @@
             <div class='footer__info'>
                 <div class='footer__logo'>
                     <img class='footer__logo_image'
-                        src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png'>
+                        src='https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-dark.png'>
                     <div class='footer__logo_text'>
-                        <div class='footer__logo_name'>Foundation</div>
+                        <div class='footer__logo_header'>Foundation</div>
                         <div class='footer__logo_description'>Startup landing template</div>
                     </div>
                 </div>
@@ -115,6 +117,7 @@
             </ul>
             <ul class='footer__navigation_item'>
                 <li>Company</li>
+                <li>About Foundation</li>
                 <li>Brand Guideline</li>
                 <li>Press Kit</li>
                 <li>Support</li>
