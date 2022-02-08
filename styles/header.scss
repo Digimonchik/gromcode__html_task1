@@ -3,12 +3,10 @@
 .header {
   @include for-medium {
     box-sizing: border-box;
-    padding: 40px 130px 0px 130px;
+    padding: 39px 130px 0px 130px;
     position: relative;
     display: flex;
-    width: 1400px;
     flex-direction: row;
-
     background-color: #f3c6bd;
     &__logo {
       display: flex;
@@ -45,13 +43,13 @@
       line-height: 13px;
     }
     &__arrow {
-      margin: auto 54px auto 11px;
+      margin: 16px 54px auto 11px;
       width: 8px;
       height: 5px;
     }
     &__navigation {
       font-family: "Work Sans", sans-serif;
-      margin: auto 0 auto auto;
+      margin: 7px 0px auto auto;
       display: flex;
       line-height: 25px;
       font-size: 18px;

@@ -9,18 +9,21 @@
     &__info {
       position: relative;
       width: 754px;
-      margin-left: 130px;
-      padding-top: 81px;
-      margin-right: 130px;
+      margin: 0px 130px;
+      padding-top: 78px;
       padding-bottom: 81px;
       z-index: 1;
       &_main {
+        margin: 0px;
         font-family: "Work Sans", sans-serif;
         font-size: 80px;
         font-weight: 700;
       }
       &_description {
-        font-family: "Work Sans", sans-serif;
+        font-family: "Work Sans";
+        text-align: justify;
+        padding-right: 60px;
+        box-sizing: border-box;
         font-size: 24px;
         width: 456px;
         height: 102px;
@@ -52,7 +55,6 @@
       top: 85px;
       left: 579px;
       background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
-      border: none;
       width: 796px;
       height: 448px;
     }
