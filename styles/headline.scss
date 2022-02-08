@@ -1,10 +1,11 @@
 @import "layout.scss";
 .headline {
+  color: var(--color);
   box-sizing: border-box;
   background-color: #f3c6bd;
   position: relative;
   @include for-medium {
-    width: 1400px;
+    padding-top: 45px;
     background-color: #f3c6bd;
     &__info {
       position: relative;
@@ -42,7 +43,8 @@
       box-shadow: none;
       padding: 0;
       color: white;
-      font-weight: 700;
+      font-family: "Work Sans";
+      font-weight: bold;
       font-size: 18px;
       line-height: 13px;
       &.button_white {
@@ -52,7 +54,7 @@
     }
     &__image {
       position: absolute;
-      top: 85px;
+      top: 185px;
       left: 579px;
       background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
       width: 796px;

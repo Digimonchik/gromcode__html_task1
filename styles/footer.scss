@@ -1,8 +1,8 @@
 @import "layout.scss";
 
 .footer {
+  color: var(--color);
   @include for-medium {
-    width: 1400px;
     &__logo {
       display: flex;
       &_text {

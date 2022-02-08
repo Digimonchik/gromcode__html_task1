@@ -1,7 +1,8 @@
 @media screen and (min-width: 1399px) {
   .header {
     box-sizing: border-box;
-    padding: 39px 130px 0px 130px;
+    width: 1140px;
+    margin: auto;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -111,13 +112,14 @@
 }
 
 .headline {
+  color: var(--color);
   box-sizing: border-box;
   background-color: #f3c6bd;
   position: relative;
 }
 @media screen and (min-width: 1399px) {
   .headline {
-    width: 1400px;
+    padding-top: 45px;
     background-color: #f3c6bd;
   }
   .headline__info {
@@ -156,7 +158,8 @@
     box-shadow: none;
     padding: 0;
     color: white;
-    font-weight: 700;
+    font-family: "Work Sans";
+    font-weight: bold;
     font-size: 18px;
     line-height: 13px;
   }
@@ -166,7 +169,7 @@
   }
   .headline__image {
     position: absolute;
-    top: 85px;
+    top: 185px;
     left: 579px;
     background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png);
     width: 796px;
@@ -222,10 +225,10 @@
 
 .order {
   background-color: #f4f5f7;
+  color: var(--color);
 }
 @media screen and (min-width: 1399px) {
   .order {
-    width: 1400px;
     height: 390px;
     position: relative;
   }
@@ -353,10 +356,10 @@
   }
 }
 
+.footer {
+  color: var(--color);
+}
 @media screen and (min-width: 1399px) {
-  .footer {
-    width: 1400px;
-  }
   .footer__logo {
     display: flex;
   }
@@ -531,6 +534,7 @@
 .audience {
   background-color: rgba(0, 161, 198, 0.07);
   box-sizing: border-box;
+  color: var(--color);
 }
 @media screen and (min-width: 1399px) {
   .audience {
@@ -602,7 +606,7 @@
     font-size: 22px;
     line-height: 28px;
   }
-  .audience__card.selected {
+  .audience__card:hover {
     color: white;
     background-color: #3141c5;
   }
@@ -671,10 +675,14 @@
     font-size: 22px;
     line-height: 28px;
   }
-  .audience__card.selected {
+  .audience__card:hover {
     color: white;
     background-color: #3141c5;
   }
+}
+
+:root {
+  --color: #2b292d;
 }
 
 body {

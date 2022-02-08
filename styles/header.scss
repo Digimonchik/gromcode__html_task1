@@ -3,7 +3,8 @@
 .header {
   @include for-medium {
     box-sizing: border-box;
-    padding: 39px 130px 0px 130px;
+    width: 1140px;
+    margin: auto;
     position: relative;
     display: flex;
     flex-direction: row;

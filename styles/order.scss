@@ -2,8 +2,8 @@
 
 .order {
   background-color: #f4f5f7;
+  color: var(--color);
   @include for-medium {
-    width: 1400px;
     height: 390px;
     position: relative;
     &__image {
