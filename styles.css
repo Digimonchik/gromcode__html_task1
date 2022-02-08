@@ -261,6 +261,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 13px;
+    box-sizing: border-box;
     width: 385px;
     height: 48px;
     margin-right: 10px;
@@ -569,7 +570,10 @@
   }
   .audience__buttons {
     display: flex;
-    padding-left: 406px;
+    margin: auto;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
   }
   .audience__cards {
@@ -693,4 +697,4 @@ body {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=styles.css.map */
