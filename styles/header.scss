@@ -1,7 +1,7 @@
 @import "layout.scss";
 
 .header {
-  @include for-medium {
+  @include for-large {
     box-sizing: border-box;
     width: 1140px;
     position: relative;

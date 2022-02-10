@@ -2,7 +2,7 @@
 
 .footer {
   color: var(--color);
-  @include for-medium {
+  @include for-large {
     &__logo {
       display: flex;
       &_text {

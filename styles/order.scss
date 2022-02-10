@@ -3,7 +3,7 @@
 .order {
   background-color: #f4f5f7;
   color: var(--color);
-  @include for-medium {
+  @include for-large {
     padding: 106px 130px;
     position: relative;
     &__image {

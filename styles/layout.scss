@@ -6,7 +6,7 @@ $lg: 1399px;
     @content;
   }
 }
-@mixin for-medium {
+@mixin for-large {
   @media screen and (min-width: $lg) {
     @content;
   }
