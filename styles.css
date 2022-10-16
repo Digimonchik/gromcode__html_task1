@@ -1,4 +1,4 @@
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .header {
     box-sizing: border-box;
     width: 1140px;
@@ -63,7 +63,7 @@
     color: black;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .header {
     background-color: #ffffff;
     padding-left: 15px;
@@ -118,7 +118,7 @@
   background-color: #f3c6bd;
   position: relative;
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .headline {
     margin-top: 81px;
     background-color: #f3c6bd;
@@ -174,7 +174,7 @@
     height: 448px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .headline {
     height: 791px;
     margin: 0px 15px;
@@ -230,7 +230,7 @@
   background-color: #f4f5f7;
   color: var(--color);
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .order {
     padding: 106px 130px;
     position: relative;
@@ -292,7 +292,7 @@
     line-height: 13px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .order {
     height: 827px;
     box-sizing: border-box;
@@ -361,7 +361,7 @@
 .footer {
   color: var(--color);
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .footer__logo {
     display: flex;
   }
@@ -453,7 +453,7 @@
     margin-left: 10px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .footer__logo {
     padding-top: 40px;
     display: flex;
@@ -542,7 +542,7 @@
   box-sizing: border-box;
   color: var(--color);
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .audience {
     padding-left: 130px;
     padding-right: 130px;
@@ -635,7 +635,7 @@
     background-color: #3141c5;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .audience {
     display: flex;
     justify-content: space-around;
@@ -740,12 +740,12 @@ body {
   margin: 0px auto;
   box-sizing: border-box;
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   .page {
     max-width: 1399px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1300px) {
   .page {
     max-width: 320px;
   }
@@ -754,7 +754,7 @@ body {
 #header {
   background-color: #f3c6bd;
 }
-@media screen and (min-width: 1399px) {
+@media screen and (min-width: 1300px) {
   #header {
     padding: 45px 130px 126px;
   }

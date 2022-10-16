@@ -1,8 +1,8 @@
 $sm: 500px;
-$lg: 1399px;
+$lg: 1300px;
 
 @mixin for-small {
-  @media screen and (max-width: $sm) {
+  @media screen and (max-width: $lg) {
     @content;
   }
 }
