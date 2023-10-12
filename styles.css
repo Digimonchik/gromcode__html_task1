@@ -120,6 +120,7 @@
 }
 @media screen and (min-width: 1300px) {
   .headline {
+    max-width: 1400px;
     margin-top: 81px;
     background-color: #f3c6bd;
   }
@@ -546,7 +547,7 @@
   .audience {
     padding-left: 130px;
     padding-right: 130px;
-    width: 1400px;
+    max-width: 1400px;
     height: 983px;
   }
   .audience__headline {

@@ -7,7 +7,7 @@
   @include for-large {
     padding-left: 130px;
     padding-right: 130px;
-    width: 1400px;
+    max-width: 1400px;
     height: 983px;
     &__headline {
       box-sizing: border-box;

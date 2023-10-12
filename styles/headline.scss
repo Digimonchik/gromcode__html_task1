@@ -5,6 +5,7 @@
   background-color: #f3c6bd;
   position: relative;
   @include for-large {
+    max-width: 1400px;;
     margin-top: 81px;
     background-color: #f3c6bd;
     &__info {
